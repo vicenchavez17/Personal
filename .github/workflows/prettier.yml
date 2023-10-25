@@ -23,6 +23,5 @@ jobs:
       
       - name: Check Format
         run: |
-          yarn run prettier --write
           npm run check-format
 
