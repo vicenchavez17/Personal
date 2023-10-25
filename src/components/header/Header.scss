@@ -158,7 +158,12 @@
 }
 
 /* 48em = 768px */
-
+@media (max-width: 48em){
+  .header .logo-name{
+    font-size: .5em;
+  }
+}
+  
 @media (min-width: 48em) {
   .header li {
     float: left;
