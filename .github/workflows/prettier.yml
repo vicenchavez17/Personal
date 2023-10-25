@@ -23,5 +23,6 @@ jobs:
       
       - name: Check Format
         run: |
+          npx prettier --write
           npm run check-format
 
