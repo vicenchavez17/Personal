@@ -137,7 +137,9 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Year Up is an intensive, competitive technical training and career development program with 250 corporate partners, graduating thousands of students annually across the nation. The program includes college-level courses, professional training and a six-month internship.",
-      descBullets: ["Completed coursework in Project Coordination, Web Development, Network System Admin, IT Helpdesk, Professional Skills, and Business Communications."]
+      descBullets: [
+        "Completed coursework in Project Coordination, Web Development, Network System Admin, IT Helpdesk, Professional Skills, and Business Communications."
+      ]
     }
   ]
 };
@@ -261,8 +263,7 @@ const achievementSection = {
         "Completed Certification from Colaberry for SQL, Python, and Tableau",
       image: require("./assets/images/colaberryLogo.png"),
       imageAlt: "Google Code-In Logo",
-      footerLink: [
-      ]
+      footerLink: []
     },
     {
       title: "Relational Databases",
@@ -276,8 +277,7 @@ const achievementSection = {
           url: "https://www.linkedin.com/learning/certificates/8afbd6141466b8bc89d969b87921cd8718381a50b655b0c2afaef8cb2e820f91?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BxFZkrv1iSKm1vrsv2Lj%2F1A%3D%3D"
         }
       ]
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

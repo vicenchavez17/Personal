@@ -17,9 +17,7 @@ const ToggleSwitch = () => {
           setChecked(!isChecked);
         }}
       />
-      <span className="slider round">
-
-      </span>
+      <span className="slider round"></span>
     </label>
   );
 };
