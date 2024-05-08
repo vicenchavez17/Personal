@@ -73,15 +73,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "tableau",
-      fontAwesomeClassname: "fab fa-chart-line"
+      fontAwesomeClassname: "fa-solid fa-chart-line"
     },
     {
       skillName: "scikit learn",
-      fontAwesomeClassname: "fab fa-subscript"
+      fontAwesomeClassname: "fas fa-subscript"
     },
     {
       skillName: "matlab",
-      fontAwesomeClassname: "fab fa-m"
+      fontAwesomeClassname: "fa-solid fa-m"
     },
     {
       skillName: "java",
@@ -132,7 +132,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Visualizations/Tableau", //Insert stack or technology you have experience in
@@ -147,7 +147,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
