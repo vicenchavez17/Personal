@@ -69,7 +69,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fab fa-database"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "tableau",
@@ -81,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "matlab",
-      fontAwesomeClassname: "fas fa-m"
+      fontAwesomeClassname: "fas fa-award"
     },
     {
       skillName: "java",
