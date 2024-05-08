@@ -47,7 +47,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills and Interests",
-  subTitle: "CURIOUS DATA ANALYST EAGER TO EXPLORE DIVERSE ANALYTICAL TOOLS AND TECHNIQUES",
+  subTitle:
+    "CURIOUS DATA ANALYST EAGER TO EXPLORE DIVERSE ANALYTICAL TOOLS AND TECHNIQUES",
   skills: [
     emoji(
       "⚡ Experienced in data visualization and interpretation, capable of creating intuitive dashboards with Tableau"
@@ -89,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
