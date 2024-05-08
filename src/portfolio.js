@@ -69,19 +69,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fa-solid fa-database"
+      fontAwesomeClassname: "fab fa-database"
     },
     {
       skillName: "tableau",
-      fontAwesomeClassname: "fa-solid fa-chart-line"
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
       skillName: "scikit learn",
-      fontAwesomeClassname: "fa-solid fa-subscript"
+      fontAwesomeClassname: "fas fa-subscript"
     },
     {
       skillName: "matlab",
-      fontAwesomeClassname: "fa-solid fa-m"
+      fontAwesomeClassname: "fas fa-m"
     },
     {
       skillName: "java",
