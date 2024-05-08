@@ -23,7 +23,7 @@ const greeting = {
   username: "Vicente Chavez Mendoza",
   title: "Hi, I'm Vicente",
   subTitle: emoji(
-    "A passionate Software Developer fascinated by the world of tech and data."
+    "Analytical Data Enthusiast Committed to Transforming Data into Impactful Insights"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1xRrl3Zmx_U0ngAz63bJTharPQngEF55M_MNDdCAb0Tg/edit?usp=sharing", // Set to empty to hide the button
@@ -47,14 +47,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills and Interests",
-  subTitle: "CURIOUS DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CURIOUS DATA ANALYST EAGER TO EXPLORE DIVERSE ANALYTICAL TOOLS AND TECHNIQUES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Experienced in data visualization and interpretation, capable of creating intuitive dashboards with Tableau"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Implementing statistical models to solve real-world problems"),
     emoji(
-      "⚡ Implement solutions for data storage in relational and non-relational DBMS"
+      "⚡ Staying updated with the latest trends and technologies in artificial intelligence and big data"
     )
   ],
 
@@ -63,49 +63,33 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "tableau",
+      fontAwesomeClassname: "fab fa-chart-line"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "scikit learn",
+      fontAwesomeClassname: "fab fa-subscript"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "matlab",
+      fontAwesomeClassname: "fab fa-m"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -122,11 +106,11 @@ const educationInfo = {
       duration: "March 2021 - December 2023",
       desc: "Took courses in:",
       descBullets: [
-        "Data Structures & Algorithms",
         "Artificial Intelligence",
+        "Data Structures & Algorithms",
         "Database Architecture",
-        "Operating Systems",
-        "Web Development",
+        "Stats for Science/Engineering",
+        "Analysis of Algorithms",
         "Security & Info Assurance",
         "and more"
       ]
@@ -150,19 +134,19 @@ const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Visualizations/Tableau", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "50%"
+      Stack: "Python/SQL",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Data Analysis/visualizations",
-      progressPercentage: "80%"
+      Stack: "Statistical Analysis",
+      progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
