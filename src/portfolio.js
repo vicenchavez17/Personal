@@ -104,7 +104,7 @@ const educationInfo = {
       schoolName: "CSU East Bay",
       logo: require("./assets/images/csuEastBayLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "March 2021 - December 2023",
+      duration: "January 2021 - May 2024",
       desc: "Took courses in:",
       descBullets: [
         "Artificial Intelligence",
@@ -119,7 +119,7 @@ const educationInfo = {
     {
       schoolName: "Year Up",
       logo: require("./assets/images/yearUpLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Data Analytics",
       duration: "September 2013 - April 2017",
       desc: "Year Up is an intensive, competitive technical training and career development program with 250 corporate partners, graduating thousands of students annually across the nation. The program includes college-level courses, professional training and a six-month internship.",
       descBullets: [
@@ -156,7 +156,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Business Analyst",
+      role: "Business Analyst",
       company: "Silicon Valley Bank",
       companylogo: require("./assets/images/svbLogo.png"),
       date: "Dec 2019 – Mar 2021",
@@ -168,7 +168,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Business Data Analyst",
+      role: "Business Analyst",
       company: "Silicon Valley Bank",
       companylogo: require("./assets/images/svbLogo.png"),
       date: "Sep 2018 – Dec 2019",
