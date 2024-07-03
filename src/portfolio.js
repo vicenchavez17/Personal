@@ -26,7 +26,7 @@ const greeting = {
     "Analytical Data Enthusiast Committed to Transforming Data into Impactful Insights"
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1xRrl3Zmx_U0ngAz63bJTharPQngEF55M_MNDdCAb0Tg/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1QrMzSHxECgRWpOX2EWi55O11-JJkx_g38LIErU43veM", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -108,7 +108,7 @@ const educationInfo = {
       desc: "Took courses in:",
       descBullets: [
         "Artificial Intelligence",
-        "Data Structures & Algorithms",
+        "Data Structures",
         "Database Architecture",
         "Stats for Science/Engineering",
         "Analysis of Algorithms",
@@ -123,7 +123,7 @@ const educationInfo = {
       duration: "September 2013 - April 2017",
       desc: "Year Up is an intensive, competitive technical training and career development program with 250 corporate partners, graduating thousands of students annually across the nation. The program includes college-level courses, professional training and a six-month internship.",
       descBullets: [
-        "Completed coursework in Project Coordination, Web Development, Network System Admin, IT Helpdesk, Professional Skills, and Business Communications."
+        "Completed coursework in Data Analytics ,Project Coordination, Web Development, IT Helpdesk, Professional Skills, and Business Communications."
       ]
     }
   ]
@@ -139,12 +139,12 @@ const techStack = {
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Python/SQL",
+      Stack: "Python & SQL",
       progressPercentage: "70%"
     },
     {
       Stack: "Statistical Analysis",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -156,15 +156,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Business Analyst",
+      role: "Business Analyst (Private Bank)",
       company: "Silicon Valley Bank",
       companylogo: require("./assets/images/svbLogo.png"),
       date: "Dec 2019 – Mar 2021",
-      desc: "Supported private bank leadership team by identifying and providing reports/data.",
+      desc: "As a Business Analyst, I leveraged data analytics, reporting, and tool development to enhance decision-making and optimize performance metrics.",
       descBullets: [
-        "Assisted with the transition from Dynamics 365 to Salesforce CRM",
-        "Automated pipeline tool resulting in top tier leads",
-        "Automated monthly reports and dashboard"
+        "Established new annual KPI goals based on historical data and leadership targets",
+        "Produced monthly performance reports for senior leadership",
+        "Engineered and launched a lead generation tool"
       ]
     },
     {
@@ -172,21 +172,21 @@ const workExperiences = {
       company: "Silicon Valley Bank",
       companylogo: require("./assets/images/svbLogo.png"),
       date: "Sep 2018 – Dec 2019",
-      desc: "Supported technology bank sales team and marketing with automated reports and ad hoc data.",
+      desc: "Optimize sales performance through data analysis, reporting, and strategic insights.",
       descBullets: [
-        "Supported various marketing events with clean, actionable data",
-        "Led monthly trainings on best practices when using internal tools"
+        "Streamlined recurring ad hoc data requests providing clean and actionable data",
+        "Transformed and analyzed employee badge data, culminating in a Tableau dashboard assessing office space and desk utilization"
       ]
     },
     {
-      role: "Data Quality Service Intern",
+      role: "Data Quality Intern",
       company: "Silicon Valley Bank",
       companylogo: require("./assets/images/svbLogo.png"),
       date: "Jan 2018 – Jul 2018",
-      desc: "",
+      desc: "Enhanced data quality scores by creating data quality rules and remdiate incorrect data records",
       descBullets: [
-        "Managed SVB's data quality dashboard",
-        "Collaborated with SME's to meet regulatory data quality needs"
+        "Revamped and managed SVB’s data quality Tableau dashboard",
+        "Created and delivered monthly data quality reports profiling 7-10 data attributes"
       ]
     }
   ]
